@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 900" width="1280" height="900" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0A1628"/>
+      <stop offset="55%"  stop-color="#0d2040"/>
+      <stop offset="100%" stop-color="#081830"/>
+    </linearGradient>
+    <radialGradient id="tealGlow" cx="65%" cy="40%" r="40%">
+      <stop offset="0%"  stop-color="#0B7285" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#0B7285" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="goldGlow" cx="20%" cy="70%" r="35%">
+      <stop offset="0%"  stop-color="#D97706" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#D97706" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="navyGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0A1628"/>
+      <stop offset="100%" stop-color="#112136"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0B7285"/>
+      <stop offset="100%" stop-color="#0E8FA3"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#112136"/>
+      <stop offset="100%" stop-color="#0d1e32"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+    <!-- Grid pattern for hero -->
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- ── BROWSER CHROME ── -->
+  <rect width="1280" height="900" rx="10" fill="#1e1e1e"/>
+  <!-- Title bar -->
+  <rect width="1280" height="36" rx="10 10 0 0" fill="#2c2c2c"/>
+  <rect y="26" width="1280" height="10" fill="#2c2c2c"/>
+  <!-- Traffic lights -->
+  <circle cx="20" cy="18" r="6" fill="#ff5f57"/>
+  <circle cx="40" cy="18" r="6" fill="#febc2e"/>
+  <circle cx="60" cy="18" r="6" fill="#28c840"/>
+  <!-- URL bar -->
+  <rect x="120" y="8" width="800" height="20" rx="4" fill="#3a3a3a"/>
+  <text x="520" y="22" font-family="'Inter', system-ui, sans-serif" font-size="11" fill="#888" text-anchor="middle">thechangework.com</text>
+
+  <!-- ── PAGE CONTENT starts at y=36 ── -->
+  <g transform="translate(0,36)">
+
+    <!-- NAV -->
+    <rect width="1280" height="64" fill="url(#navyGrad)"/>
+    <!-- Logo mark -->
+    <rect x="40" y="14" width="36" height="36" rx="7" fill="#0B7285"/>
+    <text x="58" y="36" font-family="Georgia, serif" font-size="11" font-weight="900" fill="white" text-anchor="middle" letter-spacing="1">TCW</text>
+    <!-- Logo text -->
+    <text x="84" y="36" font-family="Georgia, serif" font-size="16" font-weight="700" fill="white">The Change Work</text>
+    <!-- Nav links -->
+    <text x="860" y="37" font-family="'Inter', system-ui, sans-serif" font-size="13" font-weight="500" fill="rgba(255,255,255,0.55)">Home</text>
+    <text x="920" y="37" font-family="'Inter', system-ui, sans-serif" font-size="13" font-weight="500" fill="rgba(255,255,255,0.55)">About Us</text>
+    <text x="992" y="37" font-family="'Inter', system-ui, sans-serif" font-size="13" font-weight="500" fill="rgba(255,255,255,0.55)">Contact</text>
+    <!-- CTA button -->
+    <rect x="1074" y="18" width="120" height="28" rx="5" fill="#0B7285"/>
+    <text x="1134" y="36" font-family="'Inter', system-ui, sans-serif" font-size="12" font-weight="600" fill="white" text-anchor="middle">Schedule Now</text>
+
+    <!-- HERO SECTION -->
+    <rect y="64" width="1280" height="440" fill="url(#heroGrad)"/>
+    <rect y="64" width="1280" height="440" fill="url(#tealGlow)"/>
+    <rect y="64" width="1280" height="440" fill="url(#goldGlow)"/>
+    <rect y="64" width="1280" height="440" fill="url(#grid)"/>
+
+    <!-- Eyebrow badge -->
+    <rect x="80" y="110" width="170" height="24" rx="12" fill="rgba(217,119,6,0.15)" stroke="rgba(217,119,6,0.35)" stroke-width="1"/>
+    <text x="165" y="126" font-family="'Inter', system-ui, sans-serif" font-size="10" font-weight="700" fill="#F59E0B" text-anchor="middle" letter-spacing="1.5">AI LEADERSHIP SUMMIT</text>
+
+    <!-- Hero headline -->
+    <text x="80" y="175" font-family="Georgia, serif" font-size="42" font-weight="900" fill="white">They say:</text>
+    <text x="80" y="230" font-family="Georgia, serif" font-size="46" font-weight="900" font-style="italic" fill="#F59E0B">"You can't stop AI."</text>
+
+    <!-- Subtext -->
+    <text x="80" y="272" font-family="'Inter', system-ui, sans-serif" font-size="17" fill="rgba(255,255,255,0.75)">What if we don't stop it — and choose to</text>
+    <text x="80" y="293" font-family="'Inter', system-ui, sans-serif" font-size="17" fill="rgba(255,255,255,0.75)">collaborate with it so it serves you?</text>
+
+    <!-- Body text -->
+    <text x="80" y="328" font-family="'Inter', system-ui, sans-serif" font-size="14" fill="rgba(255,255,255,0.45)">We help your team navigate AI transformational change using</text>
+    <text x="80" y="347" font-family="'Inter', system-ui, sans-serif" font-size="14" fill="rgba(255,255,255,0.45)">research-based neuro linguistic methods — customized for your company.</text>
+
+    <!-- CTA buttons -->
+    <rect x="80" y="374" width="220" height="44" rx="6" fill="#0B7285"/>
+    <text x="190" y="400" font-family="'Inter', system-ui, sans-serif" font-size="14" font-weight="600" fill="white" text-anchor="middle">Schedule a Consultation</text>
+    <rect x="316" y="374" width="140" height="44" rx="6" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+    <text x="386" y="400" font-family="'Inter', system-ui, sans-serif" font-size="14" font-weight="600" fill="white" text-anchor="middle">Learn More</text>
+
+    <!-- Scroll hint -->
+    <rect x="624" y="475" width="22" height="36" rx="11" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+    <rect x="632" y="481" width="4" height="8" rx="2" fill="rgba(255,255,255,0.4)"/>
+
+    <!-- TEAL BANNER STRIP -->
+    <rect y="504" width="1280" height="36" fill="#0B7285"/>
+    <text x="640" y="526" font-family="'Inter', system-ui, sans-serif" font-size="10" font-weight="700" letter-spacing="1.8" fill="rgba(255,255,255,0.9)" text-anchor="middle">AI CHANGE MANAGEMENT  •  NEURO LINGUISTIC PROGRAMMING  •  LEADERSHIP TRAINING  •  STRATEGIC PLANNING  •  EXECUTIVE COACHING</text>
+
+    <!-- ── OVERVIEW SECTION ── -->
+    <rect y="540" width="1280" height="224" fill="white"/>
+
+    <!-- Left text -->
+    <text x="80" y="590" font-family="'Inter', system-ui, sans-serif" font-size="10" font-weight="700" letter-spacing="1.5" fill="#0B7285">OUR FOCUS</text>
+    <text x="80" y="622" font-family="Georgia, serif" font-size="26" font-weight="700" fill="#1E293B">Creating Sustainable AI Change</text>
+    <text x="80" y="651" font-family="'Inter', system-ui, sans-serif" font-size="13" fill="#475569">Working with corporate leaders, education administrators, and</text>
+    <text x="80" y="668" font-family="'Inter', system-ui, sans-serif" font-size="13" fill="#475569">government leaders through AI transformational change.</text>
+    <text x="80" y="695" font-family="'Inter', system-ui, sans-serif" font-size="13" fill="#475569">We help you create successful change, reduce resistance, and</text>
+    <text x="80" y="712" font-family="'Inter', system-ui, sans-serif" font-size="13" fill="#475569">manage change using research-based neuro linguistic methods.</text>
+    <rect x="80" y="732" width="148" height="36" rx="5" fill="#0B7285"/>
+    <text x="154" y="754" font-family="'Inter', system-ui, sans-serif" font-size="12" font-weight="600" fill="white" text-anchor="middle">Meet Dr. Mary</text>
+
+    <!-- Right stat cards -->
+    <rect x="720" y="554" width="480" height="56" rx="10" fill="#0A1628"/>
+    <text x="740" y="576" font-family="Georgia, serif" font-size="28" font-weight="900" fill="white">15</text>
+    <text x="771" y="572" font-family="Georgia, serif" font-size="20" font-weight="900" fill="#F59E0B">+</text>
+    <text x="800" y="576" font-family="'Inter', system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.65)">Years of Experience</text>
+
+    <rect x="720" y="618" width="480" height="56" rx="10" fill="#0A1628"/>
+    <text x="740" y="640" font-family="Georgia, serif" font-size="28" font-weight="900" fill="white">100</text>
+    <text x="785" y="636" font-family="Georgia, serif" font-size="20" font-weight="900" fill="#F59E0B">+</text>
+    <text x="800" y="640" font-family="'Inter', system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.65)">Clients Served</text>
+
+    <rect x="720" y="682" width="480" height="56" rx="10" fill="#0B7285"/>
+    <text x="740" y="704" font-family="Georgia, serif" font-size="28" font-weight="900" fill="white">50</text>
+    <text x="771" y="700" font-family="Georgia, serif" font-size="20" font-weight="900" fill="#F59E0B">+</text>
+    <text x="800" y="704" font-family="'Inter', system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.8)">Successful Transformations</text>
+
+  </g>
+
+  <!-- Label overlay -->
+  <rect x="0" y="860" width="1280" height="40" fill="rgba(0,0,0,0.7)"/>
+  <text x="640" y="885" font-family="'Inter', system-ui, sans-serif" font-size="14" font-weight="600" fill="white" text-anchor="middle">CONCEPT ART — Home Page  |  The Change Work  |  thechangework.com</text>
+</svg>

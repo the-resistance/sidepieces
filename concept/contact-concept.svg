@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 900" width="1280" height="900" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <linearGradient id="pageHeroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0A1628"/>
+      <stop offset="100%" stop-color="#0d2040"/>
+    </linearGradient>
+    <linearGradient id="navyGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0A1628"/>
+      <stop offset="100%" stop-color="#112136"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ── BROWSER CHROME ── -->
+  <rect width="1280" height="900" rx="10" fill="#1e1e1e"/>
+  <rect width="1280" height="36" rx="10 10 0 0" fill="#2c2c2c"/>
+  <rect y="26" width="1280" height="10" fill="#2c2c2c"/>
+  <circle cx="20" cy="18" r="6" fill="#ff5f57"/>
+  <circle cx="40" cy="18" r="6" fill="#febc2e"/>
+  <circle cx="60" cy="18" r="6" fill="#28c840"/>
+  <rect x="120" y="8" width="800" height="20" rx="4" fill="#3a3a3a"/>
+  <text x="520" y="22" font-family="'Inter', system-ui, sans-serif" font-size="11" fill="#888" text-anchor="middle">thechangework.com/contact</text>
+
+  <!-- ── PAGE CONTENT starts at y=36 ── -->
+  <g transform="translate(0,36)">
+
+    <!-- NAV -->
+    <rect width="1280" height="64" fill="url(#navyGrad)"/>
+    <rect x="40" y="14" width="36" height="36" rx="7" fill="#0B7285"/>
+    <text x="58" y="36" font-family="Georgia, serif" font-size="11" font-weight="900" fill="white" text-anchor="middle" letter-spacing="1">TCW</text>
+    <text x="84" y="36" font-family="Georgia, serif" font-size="16" font-weight="700" fill="white">The Change Work</text>
+    <text x="860" y="37" font-family="'Inter', system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.55)">Home</text>
+    <text x="920" y="37" font-family="'Inter', system-ui, sans-serif" font-size="13" fill="rgba(255,255,255,0.55)">About Us</text>
+    <text x="983" y="37" font-family="'Inter', system-ui, sans-serif" font-size="13" font-weight="600" fill="white">Contact</text>
+    <!-- active underline -->
+    <rect x="982" y="56" width="50" height="2.5" rx="1" fill="#0B7285"/>
+    <rect x="1074" y="18" width="120" height="28" rx="5" fill="#0B7285"/>
+    <text x="1134" y="36" font-family="'Inter', system-ui, sans-serif" font-size="12" font-weight="600" fill="white" text-anchor="middle">Schedule Now</text>
+
+    <!-- PAGE HERO -->
+    <rect y="64" width="1280" height="120" fill="url(#pageHeroGrad)"/>
+    <text x="80" y="107" font-family="'Inter', system-ui, sans-serif" font-size="10" font-weight="700" letter-spacing="1.5" fill="rgba(255,255,255,0.55)">LET'S TALK</text>
+    <text x="80" y="140" font-family="Georgia, serif" font-size="34" font-weight="800" fill="white">Contact Us</text>
+    <text x="80" y="164" font-family="'Inter', system-ui, sans-serif" font-size="14" fill="rgba(255,255,255,0.6)">Ready to take the first step? Reach out to schedule a consultation or ask about the AI Leadership Summit.</text>
+
+    <!-- ── CONTACT LAYOUT ── -->
+    <rect y="184" width="1280" height="596" fill="white"/>
+
+    <!-- LEFT: Contact Form -->
+    <text x="80" y="228" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#1E293B">Send a Message</text>
+    <text x="80" y="252" font-family="'Inter', system-ui, sans-serif" font-size="13" fill="#475569">Tell us about your organization. We'll respond within one business day.</text>
+
+    <!-- Form fields -->
+    <!-- Name -->
+    <text x="80" y="290" font-family="'Inter', system-ui, sans-serif" font-size="11" font-weight="600" fill="#1E293B">Name *</text>
+    <rect x="80" y="298" width="580" height="42" rx="5" fill="white" stroke="#E2E8F0" stroke-width="1.5"/>
+    <text x="100" y="323" font-family="'Inter', system-ui, sans-serif" font-size="13" fill="#94A3B8">Your full name</text>
+
+    <!-- Email -->
+    <text x="80" y="362" font-family="'Inter', system-ui, sans-serif" font-size="11" font-weight="600" fill="#1E293B">Email *</text>
+    <rect x="80" y="370" width="580" height="42" rx="5" fill="white" stroke="#E2E8F0" stroke-width="1.5"/>
+    <text x="100" y="395" font-family="'Inter', system-ui, sans-serif" font-size="13" fill="#94A3B8">you@example.com</text>
+
+    <!-- Organization -->
+    <text x="80" y="434" font-family="'Inter', system-ui, sans-serif" font-size="11" font-weight="600" fill="#1E293B">Organization</text>
+    <rect x="80" y="442" width="580" height="42" rx="5" fill="white" stroke="#E2E8F0" stroke-width="1.5"/>
+    <text x="100" y="467" font-family="'Inter', system-ui, sans-serif" font-size="13" fill="#94A3B8">Your company or institution</text>
+
+    <!-- Message -->
+    <text x="80" y="506" font-family="'Inter', system-ui, sans-serif" font-size="11" font-weight="600" fill="#1E293B">Message *</text>
+    <rect x="80" y="514" width="580" height="120" rx="5" fill="white" stroke="#E2E8F0" stroke-width="1.5"/>
+    <text x="100" y="539" font-family="'Inter', system-ui, sans-serif" font-size="13" fill="#94A3B8">Tell us about your needs…</text>
+
+    <!-- Consent -->
+    <rect x="80" y="648" width="14" height="14" rx="3" fill="white" stroke="#E2E8F0" stroke-width="1.5"/>
+    <text x="104" y="659" font-family="'Inter', system-ui, sans-serif" font-size="11" fill="#94A3B8">I agree that this data will be stored and processed for the purpose of establishing contact.</text>
+
+    <!-- Submit button -->
+    <rect x="80" y="676" width="580" height="46" rx="6" fill="#0B7285"/>
+    <text x="370" y="703" font-family="'Inter', system-ui, sans-serif" font-size="14" font-weight="600" fill="white" text-anchor="middle">Send Message</text>
+
+    <!-- RIGHT: Contact details panel -->
+    <rect x="760" y="200" width="440" height="480" rx="16" fill="#F8FAFC"/>
+    <text x="800" y="248" font-family="Georgia, serif" font-size="20" font-weight="700" fill="#1E293B">Get in Touch</text>
+
+    <!-- Phone -->
+    <text x="800" y="300" font-family="'Inter', system-ui, sans-serif" font-size="22">📞</text>
+    <text x="840" y="294" font-family="'Inter', system-ui, sans-serif" font-size="10" font-weight="700" letter-spacing="1.2" fill="#94A3B8">PHONE</text>
+    <text x="840" y="312" font-family="'Inter', system-ui, sans-serif" font-size="14" fill="#1E293B">+1 702-300-2808</text>
+
+    <!-- Email -->
+    <text x="800" y="368" font-family="'Inter', system-ui, sans-serif" font-size="22">✉️</text>
+    <text x="840" y="362" font-family="'Inter', system-ui, sans-serif" font-size="10" font-weight="700" letter-spacing="1.2" fill="#94A3B8">EMAIL</text>
+    <text x="840" y="380" font-family="'Inter', system-ui, sans-serif" font-size="14" fill="#0B7285">marysand111@gmail.com</text>
+
+    <!-- Location -->
+    <text x="800" y="436" font-family="'Inter', system-ui, sans-serif" font-size="22">📍</text>
+    <text x="840" y="430" font-family="'Inter', system-ui, sans-serif" font-size="10" font-weight="700" letter-spacing="1.2" fill="#94A3B8">LOCATION</text>
+    <text x="840" y="448" font-family="'Inter', system-ui, sans-serif" font-size="14" fill="#1E293B">Las Vegas, Nevada</text>
+    <text x="840" y="466" font-family="'Inter', system-ui, sans-serif" font-size="14" fill="#1E293B">United States</text>
+
+    <!-- What to expect box -->
+    <line x1="800" y1="498" x2="1180" y2="498" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="800" y="524" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#1E293B">What to Expect</text>
+    <text x="800" y="546" font-family="'Inter', system-ui, sans-serif" font-size="12" fill="#475569">After your message, Dr. Mary will personally</text>
+    <text x="800" y="564" font-family="'Inter', system-ui, sans-serif" font-size="12" fill="#475569">review your inquiry and respond within one</text>
+    <text x="800" y="582" font-family="'Inter', system-ui, sans-serif" font-size="12" fill="#475569">business day to schedule a discovery call.</text>
+
+    <!-- FOOTER -->
+    <rect y="780" width="1280" height="84" fill="#0A1628"/>
+    <text x="80" y="828" font-family="Georgia, serif" font-size="13" font-weight="700" fill="white">The Change Work</text>
+    <text x="80" y="848" font-family="'Inter', system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.4)">Helping organizations adapt and thrive in the age of AI.</text>
+    <text x="640" y="822" font-family="'Inter', system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.5)" text-anchor="middle">Home  ·  About Us  ·  Contact  ·  Legal  ·  Privacy</text>
+    <text x="640" y="846" font-family="'Inter', system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.3)" text-anchor="middle">© 2026 The Change Work. All rights reserved.</text>
+
+  </g>
+
+  <!-- Label overlay -->
+  <rect x="0" y="860" width="1280" height="40" fill="rgba(0,0,0,0.7)"/>
+  <text x="640" y="885" font-family="'Inter', system-ui, sans-serif" font-size="14" font-weight="600" fill="white" text-anchor="middle">CONCEPT ART — Contact Page  |  The Change Work  |  thechangework.com/contact</text>
+</svg>
