@@ -1,0 +1,19 @@
+{
+  "name": "sidepieces",
+  "version": "1.0.0",
+  "description": "Side project platform for people",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "dev": "serve ."
+  },
+  "keywords": [
+    "side-projects",
+    "web"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.6"
+  }
+}
